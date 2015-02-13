@@ -26,7 +26,7 @@ describe 'minireq', ->
       expect(result.getJSON().name).toBe 'Tecnología Grupo Expansión'
 
     it 'responds headers directly', ->
-      expect(result.headers['x-ratelimit-limit']).not.toBeUndefined()
+      expect(typeof result.headers).toBe 'object'
 
     it 'responds statusCode directly', ->
       expect(result.statusCode).toBe 200
