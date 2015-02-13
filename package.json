@@ -19,5 +19,8 @@
     "es6-promise": "^2.0.1",
     "grunt": "^0.4.5",
     "grunt-parts": "^0.3.3"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
