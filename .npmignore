@@ -1,5 +1,7 @@
 .*
 *.log
 .DS_Store
-Gruntfile.js
+Gruntfile.*
+/tests
+/generated
 /node_modules
