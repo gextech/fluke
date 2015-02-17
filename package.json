@@ -15,13 +15,11 @@
     "email": "pateketrueke@gmail.com"
   },
   "license": "MIT",
-  "dependencies": {
-    "whatwg-fetch": "^0.7.0"
-  },
   "devDependencies": {
     "es6-promise": "^2.0.1",
     "grunt": "^0.4.5",
-    "grunt-parts": "^0.3.3"
+    "grunt-parts": "^0.3.3",
+    "whatwg-fetch": "^0.7.0"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
