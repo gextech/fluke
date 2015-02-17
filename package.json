@@ -1,20 +1,23 @@
 {
-  "name": "minireq",
-  "version": "0.1.0",
-  "description": "Minimal XHR for NodeJS and browsers!",
-  "main": "lib/minireq.js",
+  "name": "fluke",
+  "version": "0.0.0",
+  "description": "Small golden-retriever for XHR requests",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pateketrueke/minireq.git"
+    "url": "git://github.com/gextech/fluke.git"
   },
   "bugs": {
-    "url": "https://github.com/pateketrueke/minireq/issues"
+    "url": "https://github.com/gextech/fluke/issues"
   },
   "author": {
     "name": "Alvaro Cabrera",
     "email": "pateketrueke@gmail.com"
   },
   "license": "MIT",
+  "dependencies": {
+    "whatwg-fetch": "^0.7.0"
+  },
   "devDependencies": {
     "es6-promise": "^2.0.1",
     "grunt": "^0.4.5",
