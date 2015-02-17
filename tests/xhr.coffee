@@ -3,7 +3,7 @@ require('es6-promise').polyfill()
 $ = require('../lib')
 _ = require('./helpers')
 
-describe 'minireq', ->
+describe 'fluke', ->
   describe 'response object', ->
     result = null
 
