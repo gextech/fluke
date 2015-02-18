@@ -17,8 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "es6-promise": "^2.0.1",
+    "express": "^4.11.2",
     "grunt": "^0.4.5",
-    "grunt-express": "^1.4.1",
     "grunt-parts": "^0.4.0",
     "whatwg-fetch": "^0.7.0"
   },
